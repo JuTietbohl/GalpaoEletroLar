@@ -30,7 +30,7 @@ public class CatalogoController : Controller
         
         List<CadastroProduto> produtos = _service.GetProdutos();
         Console.WriteLine(produtos);
-        return View(produtos);
+        return View();
     }
 
     public IActionResult Privacy()
