@@ -8,26 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Julia_Tietbohl\\.nuget\\packages\\": {}
+    "C:\\Users\\Alberto_Borsatto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
       "projectName": "GalpaoEletroLar",
-      "projectPath": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-      "packagesPath": "C:\\Users\\Julia_Tietbohl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\obj\\",
+      "projectPath": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "packagesPath": "C:\\Users\\Alberto_Borsatto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\GalpaoEletroLar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Julia_Tietbohl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Alberto_Borsatto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace GalpaoEletroLar.Models;
 
-public abstract class CadastroProduto
+public class CadastroProduto
 {
     public string Nome { get; set; }
     
