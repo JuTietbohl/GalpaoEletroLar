@@ -13,13 +13,27 @@ public class CadastroProduto
     
     public DateTime DataEntarda { get; set; }
     
-    public decimal custo { get; set; }
+    public decimal Custo { get; set; }
     
-    public decimal preco { get; set; }
+    public decimal Preco { get; set; }
     
-    public int quantidade { get; set; }
+    public int Quantidade { get; set; }
     
-    public bool emPromocao { get; set; }
+    public bool EmPromocao { get; set; }
     
-    
+    public string Tamanho { get; set; }
+
+    protected CadastroProduto(string nome, PublicKey id ,TIPO tipo, DateTime dataEntarda, 
+        decimal custo, decimal preco, int quantidade, bool emPromocao, string tamanho)
+    {
+        Nome = nome;
+        Id = id;
+        Tipo = tipo;
+        DataEntarda = dataEntarda;
+        Custo = custo;
+        Preco = preco;
+        Quantidade = quantidade;
+        EmPromocao = emPromocao;
+        Tamanho = tamanho;
+    }
 }
