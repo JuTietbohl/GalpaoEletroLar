@@ -4,11 +4,11 @@ using GalpaoEletroLar.Models;
 
 namespace GalpaoEletroLar.Controllers;
 
-public class HomeController : Controller
+public class CatalogoController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<CatalogoController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public CatalogoController(ILogger<CatalogoController> logger)
     {
         _logger = logger;
     }
