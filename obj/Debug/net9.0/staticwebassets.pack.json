@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\wwwroot\\galpao_eletrolar_icon.png",
+      "PackagePath": "staticwebassets\\galpao_eletrolar_icon.png"
     },
     {
       "Id": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\wwwroot\\js\\site.js",

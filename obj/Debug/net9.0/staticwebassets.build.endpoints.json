@@ -599,71 +599,8 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "favicon.ico.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000405022276"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "favicon.ico",
+      "Route": "galpao_eletrolar_icon.97yjj4xj4j.png",
+      "AssetFile": "galpao_eletrolar_icon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -676,147 +613,39 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "205136"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/x-icon"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"5YafYkmsUIxVtahLjz1+bBzmY+dxdO4LI8B2JK8pClU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
+          "Value": "Mon, 21 Jul 2025 18:02:02 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "97yjj4xj4j"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-5YafYkmsUIxVtahLjz1+bBzmY+dxdO4LI8B2JK8pClU="
         },
         {
           "Name": "label",
-          "Value": "favicon.ico"
+          "Value": "galpao_eletrolar_icon.png"
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "favicon.ico.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico.gz"
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "favicon.ico.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000405022276"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "favicon.ico",
+      "Route": "galpao_eletrolar_icon.png",
+      "AssetFile": "galpao_eletrolar_icon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -829,70 +658,25 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "205136"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/x-icon"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"5YafYkmsUIxVtahLjz1+bBzmY+dxdO4LI8B2JK8pClU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
+          "Value": "Mon, 21 Jul 2025 18:02:02 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico.gz",
-      "AssetFile": "favicon.ico.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 13:16:41 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+          "Value": "sha256-5YafYkmsUIxVtahLjz1+bBzmY+dxdO4LI8B2JK8pClU="
         }
       ]
     },
