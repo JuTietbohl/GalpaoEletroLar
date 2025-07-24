@@ -9,7 +9,9 @@ public class CadastroProduto
     
     public TIPO Tipo { get; set; }
     
-    public DateTime DataEntarda { get; set; }
+    public VOLTAGEM? Voltagem { get; set; }
+
+    public DateTime DataEntrada { get; set; }
     
     public decimal Custo { get; set; }
     
@@ -21,9 +23,5 @@ public class CadastroProduto
     
     public string Tamanho { get; set; }
     
-    public string? Material { get; set; }
-    
-    public int? Voltagem { get; set; }
-
     public CadastroProduto() {}
 }

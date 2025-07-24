@@ -25,11 +25,12 @@ public class CatalogoController : Controller
     {
         if (ModelState.IsValid)
         {
+            produto.DataEntrada = produto.DataEntrada.Date;
+            produto.EmPromocao = false;
             _service.CriaProduto(produto);
         }
         
-        List<CadastroProduto> produtos = _service.GetProdutos();
-        Console.WriteLine(produtos);
+        _service.PrintProdutos();
         return View();
     }
 

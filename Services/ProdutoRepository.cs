@@ -19,4 +19,20 @@ public class ProdutoRepository: IProdutoRepository
     {
         return produtos;
     }
+
+    public void PrintProdutos()
+    {
+        Console.WriteLine(produtos.Count);
+        foreach (CadastroProduto produto in produtos)
+        {
+            Console.WriteLine($"Nome: {produto.Nome}");
+            Console.WriteLine($"Custo: {produto.Custo}");
+            Console.WriteLine($"Quantidade: {produto.Quantidade}");
+            Console.WriteLine($"Data de entrada:  {produto.DataEntrada}");
+            Console.WriteLine($"Quantidade:  {produto.Quantidade}");
+            Console.WriteLine($"Voltagem: {produto.Voltagem}");
+            Console.WriteLine($"Tipo: {produto.Tipo}");
+            Console.WriteLine($"Em promocao: {produto.EmPromocao}");
+        }
+    }
 }

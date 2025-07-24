@@ -8,4 +8,5 @@ public interface IProdutoRepository
     void AtualizaProduto(CadastroProduto produto);
     void DeletaProduto(CadastroProduto produto);
     List<CadastroProduto> GetProdutos();
+    void PrintProdutos();
 }
