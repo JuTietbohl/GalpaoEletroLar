@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GalpaoEletroLar
 build_property.RootNamespace = GalpaoEletroLar
-build_property.ProjectDir = C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\
+build_property.ProjectDir = C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar
+build_property.MSBuildProjectDirectory = C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Catalogo/Index.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Catalogo/Privacy.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Catalogo/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Shared/Error.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Shared/_ModalCadastro.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Shared/_ModalCadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbENhZGFzdHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/_ViewImports.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/_ViewStart.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alber/OneDrive/Área de Trabalho/code/GalpaoEletroLar/Views/Shared/_Layout.cshtml]
+[C:/Users/Alberto_Borsatto/OneDrive - Dell Technologies/Desktop/code/teste/GalpaoEletroLar/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7ftvcceh9g

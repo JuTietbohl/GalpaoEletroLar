@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alber\\.nuget\\packages\\": {}
+    "C:\\Users\\Alberto_Borsatto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
       "projectName": "GalpaoEletroLar",
-      "projectPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-      "packagesPath": "C:\\Users\\Alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\obj\\",
+      "projectPath": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "packagesPath": "C:\\Users\\Alberto_Borsatto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alber\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alberto_Borsatto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Alber\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
