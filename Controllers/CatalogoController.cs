@@ -1,20 +1,38 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using GalpaoEletroLar.Models;
+using GalpaoEletroLar.Services;
 
 namespace GalpaoEletroLar.Controllers;
 
 public class CatalogoController : Controller
 {
-    private readonly ILogger<CatalogoController> _logger;
+    private readonly IProdutoRepository _service;
 
-    public CatalogoController(ILogger<CatalogoController> logger)
+    public CatalogoController(IProdutoRepository service)
     {
-        _logger = logger;
+        _service = service;
     }
 
+    [HttpGet]
     public IActionResult Index()
     {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Index(CadastroProduto produto)
+    {
+        Console.WriteLine(produto.Nome);
+        Console.WriteLine(ModelState.IsValid);
+        
+        if (ModelState.IsValid)
+        {
+            produto.EmPromocao = false;
+            _service.CriaProduto(produto);
+        }
+        
+        _service.PrintProdutos();
         return View();
     }
 

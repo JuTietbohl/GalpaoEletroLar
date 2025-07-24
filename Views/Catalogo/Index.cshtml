@@ -1,12 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model GalpaoEletroLar.Models.CadastroProduto
+
+@{
+    ViewData["Title"] = "Catálogo";
 }
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- Font Awesome (para o ícone de geladeira) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
 <div class="text-center">
     <div style=" display: flex; justify-content: end; margin: 50px;">
-        <button type="button" class="btn" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target=" #modalCadastro" data-bs-target="#modalCadastro" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
     </div>
     <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px ">
         <div class="d-flex align-items-center justify-content-between">
@@ -29,10 +42,10 @@
             </div>
             <div>
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
-                    <i class="bi bi-currency-dollar"></i>
+                    <i class="bi bi-info-circle"></i>
                 </button>
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
-                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-currency-dollar"></i>
                 </button>
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-trash"></i>
@@ -61,13 +74,13 @@
             </div>
             <div>
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                    <i class="bi bi-info-circle"></i>
+                </button>
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-trash"></i>
-                </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
-                    <i class="bi bi-pencil-square"></i>
                 </button>
             </div>
         </div>
@@ -75,3 +88,6 @@
 
 </div>
 </body>
+
+@await Html.PartialAsync("_ModalCadastro", Model)
+
