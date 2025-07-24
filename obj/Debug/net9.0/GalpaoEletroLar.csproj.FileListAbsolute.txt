@@ -216,7 +216,6 @@ C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\bundle\GalpaoEletroLar.styles.css
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\projectbundle\GalpaoEletroLar.bundle.scp.css
-C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-b9sayid5wm.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\1u8i2aolju-xtxxf3hu2r.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\5sutt9edhu-t1cqhe9u97.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\l53ants0er-c2jlpeoesf.gz
@@ -288,3 +287,4 @@ C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-a4ud3nbiwq.gz
