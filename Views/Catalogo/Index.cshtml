@@ -1,4 +1,102 @@
 ﻿@model GalpaoEletroLar.Models.CadastroProduto
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+</head>
+<body>
+<div class="text-center">
+    <div style=" display: flex; justify-content: end; margin: 50px;">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target=" #modalCadastro" data-bs-target="#modalCadastro" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
+    </div>
+    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px ">
+        <div class="d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center">
+                <i class="fa-regular fa-refrigerator" style="color: #744D2B; font-size: 20px;"></i>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">Geladeira Brastemp</h6>
+                    <small class="text-muted">Frost Free Duplex</small>
+                </div>
+            </div>
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                R$ 1400,00
+            </div>
+            <div class="text-end">
+                <div style="color: #5C3B1E;"> Quantidade: 2</div>
+            </div>
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                <div style="color: #5C3B1E;"> 22/07/2025</div>
+            </div>
+            <div>
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                    <i class="bi bi-info-circle"></i>
+                </button>
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                    data-bs-toggle="modal" data-bs-target="#modalVender">
+                    <i class="bi bi-currency-dollar"></i>
+                </button>
+                <button class="btn btn-sm"
+                        style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalExcluir">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px; ">
+        <div class="d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center">
+                <i class="fa-regular fa-refrigerator" style="color: #744D2B; font-size: 20px;"></i>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">Geladeira Brastemp</h6>
+                    <small class="text-muted">Frost Free Duplex</small>
+                </div>
+            </div>
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                R$ 1.000,00
+            </div>
+            <div class="text-end">
+                <div style="color: #E00000;">  Sem estoque </div>
+            </div>
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                <div style="color: #5C3B1E;"> 22/07/2025</div>
+            </div>
+            <div>
+                
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                    <i class="bi bi-info-circle"></i>
+                </button>
+
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal" data-bs-target="#modalVender">
+                    <i class="bi bi-currency-dollar"></i>
+                </button>
+
+                <button class="btn btn-sm" 
+                        style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal" data-bs-target="#modalExcluir">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+@await Html.PartialAsync("_ModalCadastro", Model)
+@await Html.PartialAsync("_ModalExcluir", Model)
+@await Html.PartialAsync("_ModalVender", Model)
+@await Html.PartialAsync("_ModalConfirmaCadastro", Model)
+
 <link rel="stylesheet" href="~/css/toasts.css" />
 
 
@@ -50,8 +148,6 @@
     }, 3000);
   }
 </script>
-
-
 
 
 
