@@ -9,14 +9,12 @@
         const selectedValue = productType.value;
 
         if (selectedValue === "Eletro") {
-            console.log("eletro");
             productSize.classList.add("d-none");
             sizeInput.removeAttribute("required");
 
             productVolts.classList.remove("d-none");
             voltsSelect.setAttribute("required", "required");
         } else if (selectedValue === "Movel") {
-            console.log("movel");
             productSize.classList.remove("d-none");
             sizeInput.setAttribute("required", "required");
 

@@ -34,6 +34,8 @@ namespace GalpaoEletroLar.Controllers
             {
                 viewModel.Produto.EmPromocao = false;
                 _service.CriaProduto(viewModel.Produto);
+                
+                _service.PrintProdutos();
 
                 return RedirectToAction("Index"); 
             }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GalpaoEletroLar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5e796bd81e7350155f16399ff8f240fce45b08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c22620c97e1a6c891740b9d3d8c8da59efd8e316")]
 [assembly: System.Reflection.AssemblyProductAttribute("GalpaoEletroLar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GalpaoEletroLar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
