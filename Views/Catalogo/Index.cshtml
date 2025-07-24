@@ -1,4 +1,6 @@
 ﻿@model GalpaoEletroLar.Models.CadastroProduto
+<link rel="stylesheet" href="~/css/toasts.css" />
+
 
 @{
     ViewData["Title"] = "Catálogo";
@@ -9,3 +11,55 @@
 </button>
 
 @await Html.PartialAsync("_ModalCadastro", Model)
+
+@await Html.PartialAsync("_Toast", new ViewDataDictionary(ViewData) {
+    { "mensagem", "excluído" },
+    { "id", "toastExcluido" }
+})
+
+@await Html.PartialAsync("_Toast", new ViewDataDictionary(ViewData) {
+    { "mensagem", "salvo" },
+    { "id", "toastSalvo" }
+})
+
+@await Html.PartialAsync("_Toast", new ViewDataDictionary(ViewData) {
+    { "mensagem", "adicionado" },
+    { "id", "toastAdicionado" }
+})
+
+
+
+<button onclick="mostrarToast('toastExcluido')">Mostrar Toast Excluído</button>
+<button onclick="mostrarToast('toastSalvo')">Mostrar Toast Salvo</button>
+<button onclick="mostrarToast('toastAdicionado')">Mostrar Toast Adicionado</button>
+
+<script>
+  function mostrarToast(id) {
+    const toast = document.getElementById(id);
+    if (!toast) return;
+
+    // Resetar caso esteja reaparecendo
+    toast.style.display = 'none';
+    void toast.offsetWidth; // força reflow
+
+    toast.style.display = 'block';
+
+    // Esconde após 3s
+    setTimeout(() => {
+      toast.style.display = 'none';
+    }, 3000);
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
