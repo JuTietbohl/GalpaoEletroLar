@@ -126,10 +126,15 @@
 })
 
 
-
-<button onclick="mostrarToast('toastExcluido')">Mostrar Toast Excluído</button>
 <button onclick="mostrarToast('toastSalvo')">Mostrar Toast Salvo</button>
 <button onclick="mostrarToast('toastAdicionado')">Mostrar Toast Adicionado</button>
+
+<script>
+  function confirmarExclusao() {
+    mostrarToast('toastExcluido');
+  }
+</script>
+
 
 <script>
   function mostrarToast(id) {
