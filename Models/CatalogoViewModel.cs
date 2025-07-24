@@ -1,7 +1,8 @@
-namespace GalpaoEletroLar.Models;
-
-public class CatalogoViewModel
+namespace GalpaoEletroLar.Models.ViewModels
 {
-    public List<CadastroProduto> Produtos { get; set; }
-    public CadastroProduto NovoProduto { get; set; }
+    public class CatalogoViewModel
+    {
+        public CadastroProduto Produto { get; set; } = new CadastroProduto();
+        public List<CadastroProduto> ListaProdutos { get; set; } = new List<CadastroProduto>();
+    }
 }
