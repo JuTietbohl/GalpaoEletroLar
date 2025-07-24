@@ -1,3 +1,15 @@
+:root {
+  --cor-primaria: #FFE1BA;
+  --cor-botao: #744D2B;
+ 
+  --cor-input: #FFE1BA;
+  --borda-input: #744D2B;
+  --cor-label: #643811;
+  
+  --cor-modal: #FAE5CA;
+}
+
+
 html {
   font-size: 14px;
 }
@@ -28,4 +40,51 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.modal-content {
+  background: var(--cor-modal) !important;
+  border-radius: 14px !important;
+}
+
+.modal-content .submit-button {
+  background: var(--cor-botao) !important;
+  border: none !important;
+  border-radius: 10px;
+  max-width: 310px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modal-body input, .modal-body select {
+  background: var(--cor-input);
+  border: 3px solid var(--borda-input);
+  border-radius: 10px;
+}
+
+.modal-body input:focus, .modal-body select:focus {
+  background: var(--cor-input) !important;
+  border-color: var(--borda-input) !important;
+  box-shadow: none !important; 
+  color: inherit;
+}
+
+
+.modal-body label, .modal-title {
+  color: var(--cor-label);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-title {
+  font-size: 24px !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
 }

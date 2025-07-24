@@ -95,3 +95,197 @@ C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\
 C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\appsettings.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.staticwebassets.runtime.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.staticwebassets.endpoints.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.exe
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.deps.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.runtimeconfig.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.dll
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.pdb
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.AssemblyInfoInputs.cache
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.AssemblyInfo.cs
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.csproj.CoreCompileInputs.cache
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.RazorAssemblyInfo.cache
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.RazorAssemblyInfo.cs
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.sourcelink.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\bundle\GalpaoEletroLar.styles.css
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\projectbundle\GalpaoEletroLar.bundle.scp.css
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-b9sayid5wm.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\1u8i2aolju-xtxxf3hu2r.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\5sutt9edhu-t1cqhe9u97.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\l53ants0er-c2jlpeoesf.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\s5s1z13vs7-sejl45xvog.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\awsrdoaztb-aexeepp0ev.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ym300sue1t-xvp3kq03qx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7zffvbg8kw-ausgxo2sd3.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\xci8idfs0e-22vffe00uq.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\0uindtx37v-cosvhxvwiu.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mj7m8h5pvt-qesaa3a1fm.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\yqftshlcth-fvhpjtyr6v.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mmu1bth97d-tmc1g35s3z.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\utnre5tgfx-fsbi9cje9m.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6cokp1qf3p-rxsg74s51o.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\muunqc3urv-ee0r1s7dh0.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\db64tr0mct-q9ht133ko3.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\q7l3y5kudr-jd9uben2k1.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\gnkc9t23ue-gye83jo8yx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y8kal0gihg-r4e9w2rdcm.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\bva7s46jv1-wl58j5mj3v.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y17foq2k00-c2oey78nd0.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7f1xrvpjze-d4r6k3f320.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mbs4uamthk-j5mq2jizvt.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\8rmr0e4x2t-keugtjm085.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mvddh1scik-nvvlpmu67g.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\n0zg4l58oc-zub09dkrxp.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\28k7xjs0m4-pj5nd1wqec.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\pwizgnt3vk-43atpzeawx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\oqvnd4h3qv-v0zj4ognzu.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jf6yi7nmwv-ynyaa8k90p.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\x3e440fd31-hrwsygsryq.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\foeicup1e1-c63t5i9ira.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\292gojfj4y-ft3s53vfgj.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\j1y2tjcw8l-4094rpi4f9.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6nyy7vaqfv-6pdc2jztkx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jsbmpe6eu3-hd3gran6i8.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\x4cr8b0rkh-iovd86k7lj.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ctknwj2sh6-ltid2c489k.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\75aj3uiut0-kbrnm935zg.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\00wb3s3ajp-8vyfqsqgz1.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\z5hdx0f271-y7v9cxd14o.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\rsf2fcwcte-u9q1upor1n.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\qzml7ogklo-h1s4sie4z3.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jy9u7ylnp5-4d85u1mtcx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y5jr25z680-0j3bgjxly4.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\o0y10nhso0-03hjc8e09r.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\pt29pqh40d-48y08845bh.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6ie6nokshl-356vix0kms.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\9lhg9uheju-83jwlth58m.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\fsyf9mx1or-mrlpezrjn3.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\l5uhkpvq84-worgj0nhwm.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\gsa7m2r3ny-gk0pw8i4co.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\98uwlo1390-x0q3zqp4vz.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\1462g9x9lx-d6nrnj6jjx.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mcnnpm86es-m9qm4tazc0.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ycjxmqnsu7-ttgo8qnofa.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\4ot5ah11mo-jjsuc0puko.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\hgkcvjkni9-9vr69e8ynj.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\e9naakcoqy-87fc7y1x7t.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lil10u4in8-mlv21k5csn.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7smre1kxj1-dry7cyucw7.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\rs5jw0yu1p-dry7cyucw7.gz
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets\msbuild.GalpaoEletroLar.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets\msbuild.GalpaoEletroLar.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets\msbuild.build.GalpaoEletroLar.props
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.GalpaoEletroLar.props
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.GalpaoEletroLar.props
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.dll
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\refint\GalpaoEletroLar.dll
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\appsettings.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.staticwebassets.runtime.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.staticwebassets.endpoints.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.exe
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.deps.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.runtimeconfig.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\bin\Debug\net9.0\GalpaoEletroLar.pdb
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.AssemblyInfoInputs.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.AssemblyInfo.cs
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.csproj.CoreCompileInputs.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.RazorAssemblyInfo.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.RazorAssemblyInfo.cs
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.sourcelink.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\bundle\GalpaoEletroLar.styles.css
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\projectbundle\GalpaoEletroLar.bundle.scp.css
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\1u8i2aolju-xtxxf3hu2r.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\5sutt9edhu-t1cqhe9u97.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\l53ants0er-c2jlpeoesf.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\s5s1z13vs7-sejl45xvog.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\awsrdoaztb-aexeepp0ev.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ym300sue1t-xvp3kq03qx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7zffvbg8kw-ausgxo2sd3.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\xci8idfs0e-22vffe00uq.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\0uindtx37v-cosvhxvwiu.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mj7m8h5pvt-qesaa3a1fm.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\yqftshlcth-fvhpjtyr6v.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mmu1bth97d-tmc1g35s3z.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\utnre5tgfx-fsbi9cje9m.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6cokp1qf3p-rxsg74s51o.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\muunqc3urv-ee0r1s7dh0.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\db64tr0mct-q9ht133ko3.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\q7l3y5kudr-jd9uben2k1.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\gnkc9t23ue-gye83jo8yx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y8kal0gihg-r4e9w2rdcm.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\bva7s46jv1-wl58j5mj3v.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y17foq2k00-c2oey78nd0.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7f1xrvpjze-d4r6k3f320.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mbs4uamthk-j5mq2jizvt.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\8rmr0e4x2t-keugtjm085.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mvddh1scik-nvvlpmu67g.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\n0zg4l58oc-zub09dkrxp.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\28k7xjs0m4-pj5nd1wqec.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\pwizgnt3vk-43atpzeawx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\oqvnd4h3qv-v0zj4ognzu.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jf6yi7nmwv-ynyaa8k90p.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\x3e440fd31-hrwsygsryq.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\foeicup1e1-c63t5i9ira.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\292gojfj4y-ft3s53vfgj.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\j1y2tjcw8l-4094rpi4f9.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6nyy7vaqfv-6pdc2jztkx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jsbmpe6eu3-hd3gran6i8.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\x4cr8b0rkh-iovd86k7lj.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ctknwj2sh6-ltid2c489k.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\75aj3uiut0-kbrnm935zg.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\00wb3s3ajp-8vyfqsqgz1.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\z5hdx0f271-y7v9cxd14o.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\rsf2fcwcte-u9q1upor1n.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\qzml7ogklo-h1s4sie4z3.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\jy9u7ylnp5-4d85u1mtcx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\y5jr25z680-0j3bgjxly4.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\o0y10nhso0-03hjc8e09r.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\pt29pqh40d-48y08845bh.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\6ie6nokshl-356vix0kms.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\9lhg9uheju-83jwlth58m.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\fsyf9mx1or-mrlpezrjn3.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\l5uhkpvq84-worgj0nhwm.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\gsa7m2r3ny-gk0pw8i4co.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\98uwlo1390-x0q3zqp4vz.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\1462g9x9lx-d6nrnj6jjx.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\mcnnpm86es-m9qm4tazc0.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\ycjxmqnsu7-ttgo8qnofa.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\4ot5ah11mo-jjsuc0puko.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\hgkcvjkni9-9vr69e8ynj.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\e9naakcoqy-87fc7y1x7t.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lil10u4in8-mlv21k5csn.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7smre1kxj1-dry7cyucw7.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\rs5jw0yu1p-dry7cyucw7.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\refint\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-cn9h7izmu2.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
