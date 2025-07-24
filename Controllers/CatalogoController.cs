@@ -35,13 +35,18 @@ namespace GalpaoEletroLar.Controllers
                 viewModel.Produto.EmPromocao = false;
                 _service.CriaProduto(viewModel.Produto);
                 
-                _service.PrintProdutos();
-
                 return RedirectToAction("Index"); 
             }
 
             viewModel.ListaProdutos = _service.GetProdutos();
             return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult RemoveProduto(int id)
+        {
+            _service.DeletaProduto(id);
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()

@@ -4,7 +4,8 @@ namespace GalpaoEletroLar.Services;
 
 public class ProdutoRepository: IProdutoRepository
 {
-    List<CadastroProduto> produtos = new List<CadastroProduto>();
+    private List<CadastroProduto> produtos = new List<CadastroProduto>();
+    private int ultimoId = 0;
 
     public ProdutoRepository()
     {
@@ -12,6 +13,7 @@ public class ProdutoRepository: IProdutoRepository
         {
             new CadastroProduto
             {
+                Id = ++ultimoId,
                 Nome = "Micro-ondas",
                 Tipo = TIPO.ELETRO,
                 Custo = 350.00m,
@@ -23,6 +25,7 @@ public class ProdutoRepository: IProdutoRepository
             },
             new CadastroProduto
             {
+                Id = ++ultimoId,
                 Nome = "Sofá 3 Lugares",
                 Tipo = TIPO.MOVEL,
                 Custo = 800.00m,
@@ -36,13 +39,22 @@ public class ProdutoRepository: IProdutoRepository
     }
     
     public void CriaProduto(CadastroProduto produto)
-    {
+    {   
+        produto.Id = ++ultimoId;
         produtos.Add(produto);
     }
     
     public void AtualizaProduto(CadastroProduto produto) {}
-    
-    public void DeletaProduto(CadastroProduto produto) {}
+
+    public void DeletaProduto(int id)
+    {
+        CadastroProduto produto = produtos.FirstOrDefault(p => p.Id == id);
+
+        if (produto != null)
+        {
+            produtos.Remove(produto);
+        }
+    }
 
     public List<CadastroProduto> GetProdutos()
     {

@@ -32,9 +32,12 @@
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
-                    <i class="bi bi-trash"></i>
-                </button>
+                <form asp-action="RemoveProduto" asp-controller="Catalogo" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@product.Id" />
+                    <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" onclick="return confirm('Tem certeza que deseja excluir?');">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </div>

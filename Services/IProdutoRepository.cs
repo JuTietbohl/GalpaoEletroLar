@@ -6,7 +6,7 @@ public interface IProdutoRepository
 {
     void CriaProduto(CadastroProduto produto);
     void AtualizaProduto(CadastroProduto produto);
-    void DeletaProduto(CadastroProduto produto);
+    void DeletaProduto(int id);
     List<CadastroProduto> GetProdutos();
     void PrintProdutos();
 }
