@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {}
+    "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {
+    "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
         "projectName": "GalpaoEletroLar",
-        "projectPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-        "packagesPath": "C:\\Users\\Julia_Schivinscki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\obj\\",
+        "projectPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Julia_Schivinscki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
