@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {}
+    "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {
+    "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+        "projectUniqueName": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
         "projectName": "GalpaoEletroLar",
-        "projectPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-        "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Desktop\\PUCRS\\IT Academy\\Galpão EletroLar\\GalpaoEletroLar\\obj\\",
+        "projectPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+        "packagesPath": "C:\\Users\\Alber\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alber\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Alber\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
