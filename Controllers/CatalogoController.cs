@@ -23,9 +23,11 @@ public class CatalogoController : Controller
     [HttpPost]
     public IActionResult Index(CadastroProduto produto)
     {
+        Console.WriteLine(produto.Nome);
+        Console.WriteLine(ModelState.IsValid);
+        
         if (ModelState.IsValid)
         {
-            produto.DataEntrada = produto.DataEntrada.Date;
             produto.EmPromocao = false;
             _service.CriaProduto(produto);
         }

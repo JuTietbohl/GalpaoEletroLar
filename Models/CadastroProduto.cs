@@ -21,7 +21,7 @@ public class CadastroProduto
     
     public bool EmPromocao { get; set; }
     
-    public string Tamanho { get; set; }
+    public string? Tamanho { get; set; }
     
     public CadastroProduto() {}
 }

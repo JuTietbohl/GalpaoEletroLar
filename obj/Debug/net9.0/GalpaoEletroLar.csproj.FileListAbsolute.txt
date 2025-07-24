@@ -287,4 +287,5 @@ C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
-C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-a4ud3nbiwq.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-cn9h7izmu2.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
