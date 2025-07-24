@@ -388,6 +388,6 @@ C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\refint
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
-C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-cn9h7izmu2.gz
 C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-6jyx998sz8.gz
+C:\Users\Julia_Tietbohl\RiderProjects\GalpaoEletroLar\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-6jyx998sz8.gz

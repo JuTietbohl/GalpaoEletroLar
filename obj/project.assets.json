@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Julia_Schivinscki\\.nuget\\packages\\": {}
+    "C:\\Users\\Julia_Tietbohl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "projectUniqueName": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
       "projectName": "GalpaoEletroLar",
-      "projectPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-      "packagesPath": "C:\\Users\\Julia_Schivinscki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\obj\\",
+      "projectPath": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "packagesPath": "C:\\Users\\Julia_Tietbohl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julia_Tietbohl\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Julia_Schivinscki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julia_Tietbohl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
