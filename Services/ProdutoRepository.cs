@@ -41,8 +41,10 @@ public class ProdutoRepository: IProdutoRepository
     }
     
     public void AtualizaProduto(CadastroProduto produto) {}
-    
-    public void DeletaProduto(CadastroProduto produto) {}
+
+    public void DeletaProduto(CadastroProduto produto)
+    {
+    }
 
     public List<CadastroProduto> GetProdutos()
     {

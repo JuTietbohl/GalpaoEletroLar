@@ -1,0 +1,22 @@
+@model GalpaoEletroLar.Models.CadastroProduto
+
+<div class="modal fade" id="modalVender" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" style="color: #5C3B1E;">Confirmar Venda</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: #5C3B1E;">Tem certeza que deseja vender este produto?</p>
+                <p style="color: #5C3B1E;">Quantidade que deseja vender:</p>
+                <input type="number" class="form-control" id="quantidadeVenda" name="quantidade" min="1" value="1"
+                       style="border-color: #744D2B; background-color: #FFE1BA;">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #744D2B; color: #FFE1BA;">Cancelar</button>
+                <button type="button" class="btn btn-danger" style="background-color: #13653f; color: white;">Confirmar Venda</button>
+            </div>
+        </div>
+    </div>
+</div>
