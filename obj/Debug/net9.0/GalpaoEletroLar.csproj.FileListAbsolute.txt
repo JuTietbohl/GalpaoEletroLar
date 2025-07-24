@@ -179,7 +179,6 @@ C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\hgkcvjkni9-9vr69e8ynj.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\e9naakcoqy-87fc7y1x7t.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lil10u4in8-mlv21k5csn.gz
-C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-b9sayid5wm.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\7smre1kxj1-dry7cyucw7.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\rs5jw0yu1p-dry7cyucw7.gz
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\staticwebassets.build.json
@@ -191,3 +190,5 @@ C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-cn9h7izmu2.gz
+C:\Users\Alber\OneDrive\Área de Trabalho\code\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
