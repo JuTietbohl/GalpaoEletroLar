@@ -8,24 +8,26 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alber\\.nuget\\packages\\": {}
+    "C:\\Users\\Julia_Schivinscki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "projectUniqueName": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
       "projectName": "GalpaoEletroLar",
-      "projectPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
-      "packagesPath": "C:\\Users\\Alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alber\\OneDrive\\Área de Trabalho\\code\\GalpaoEletroLar\\obj\\",
+      "projectPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\GalpaoEletroLar.csproj",
+      "packagesPath": "C:\\Users\\Julia_Schivinscki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julia_Schivinscki\\RiderProjects\\GalpaoEletroLar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alber\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Julia_Schivinscki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +46,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -68,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Alber\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
