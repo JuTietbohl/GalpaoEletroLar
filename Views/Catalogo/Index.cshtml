@@ -39,10 +39,14 @@
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-info-circle"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                    data-bs-toggle="modal" data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                <button class="btn btn-sm"
+                        style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalExcluir">
                     <i class="bi bi-trash"></i>
                 </button>
             </div>
@@ -68,13 +72,19 @@
                 <div style="color: #5C3B1E;"> 22/07/2025</div>
             </div>
             <div>
+                
                 <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-info-circle"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal" data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+
+                <button class="btn btn-sm" 
+                        style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal" data-bs-target="#modalExcluir">
                     <i class="bi bi-trash"></i>
                 </button>
             </div>
@@ -86,4 +96,6 @@
 </body>
 
 @await Html.PartialAsync("_ModalCadastro", Model)
-
+@await Html.PartialAsync("_ModalExcluir", Model)
+@await Html.PartialAsync("_ModalVender", Model)
+@await Html.PartialAsync("_ModalConfirmaCadastro", Model)
