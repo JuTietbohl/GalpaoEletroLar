@@ -1,49 +1,58 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using GalpaoEletroLar.Models;
+using GalpaoEletroLar.Models.ViewModels;
 using GalpaoEletroLar.Services;
 
-namespace GalpaoEletroLar.Controllers;
-
-public class CatalogoController : Controller
+namespace GalpaoEletroLar.Controllers
 {
-    private readonly IProdutoRepository _service;
-
-    public CatalogoController(IProdutoRepository service)
+    public class CatalogoController : Controller
     {
-        _service = service;
-    }
+        private readonly IProdutoRepository _service;
 
-    [HttpGet]
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public IActionResult Index(CadastroProduto produto)
-    {
-        Console.WriteLine(produto.Nome);
-        Console.WriteLine(ModelState.IsValid);
-        
-        if (ModelState.IsValid)
+        public CatalogoController(IProdutoRepository service)
         {
-            produto.EmPromocao = false;
-            _service.CriaProduto(produto);
+            _service = service;
         }
-        
-        _service.PrintProdutos();
-        return View();
-    }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        [HttpGet]
+        public IActionResult Index()
+        {
+            var viewModel = new CatalogoViewModel
+            {
+                Produto = new CadastroProduto(),
+                ListaProdutos = _service.GetProdutos()
+            };
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Index(CatalogoViewModel viewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                viewModel.Produto.EmPromocao = false;
+                _service.CriaProduto(viewModel.Produto);
+                
+                _service.PrintProdutos();
+
+                return RedirectToAction("Index"); 
+            }
+
+            viewModel.ListaProdutos = _service.GetProdutos();
+            return View(viewModel);
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }

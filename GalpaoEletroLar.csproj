@@ -6,4 +6,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Catalogo\Modal\ModalDetalhes.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Shared\Modal\ModalDetalhes.cshtml" />
+    </ItemGroup>
+
 </Project>
