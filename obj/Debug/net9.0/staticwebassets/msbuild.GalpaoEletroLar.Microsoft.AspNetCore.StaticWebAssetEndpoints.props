@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/GalpaoEletroLar/css/site.cn9h7izmu2.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cn9h7izmu2"},{"Name":"integrity","Value":"sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e\u002BLl9stg5QE="},{"Name":"label","Value":"_content/GalpaoEletroLar/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1780"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e\u002BLl9stg5QE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 16:35:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GalpaoEletroLar/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e\u002BLl9stg5QE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1780"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e\u002BLl9stg5QE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 16:35:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1808"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 17:14:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GalpaoEletroLar/css/site.ksmsjilztp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ksmsjilztp"},{"Name":"integrity","Value":"sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="},{"Name":"label","Value":"_content/GalpaoEletroLar/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1808"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Jul 2025 17:14:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GalpaoEletroLar/GalpaoEletroLar.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GalpaoEletroLar.dry7cyucw7.bundle.scp.css'))</AssetFile>

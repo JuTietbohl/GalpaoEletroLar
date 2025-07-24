@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ynm+q7b0WkcGxWIKAVclF1zLnuxvWeKFH8W/Ktw7HLk=",
+  "Hash": "pc2X/iBDRlssr+HLJraEx5ETKWPbi9YsswxF32AhkWE=",
   "Source": "GalpaoEletroLar",
   "BasePath": "_content/GalpaoEletroLar",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-cn9h7izmu2.gz",
+      "Identity": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-ksmsjilztp.gz",
       "SourceId": "GalpaoEletroLar",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/GalpaoEletroLar",
-      "RelativePath": "css/site#[.{fingerprint=cn9h7izmu2}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ksmsjilztp}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -409,8 +409,8 @@
       "RelatedAsset": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c4cluxrhb7",
-      "Integrity": "ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA=",
+      "Fingerprint": "h0sxt1dbw0",
+      "Integrity": "EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cn9h7izmu2",
-      "Integrity": "GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE=",
+      "Fingerprint": "ksmsjilztp",
+      "Integrity": "nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.cn9h7izmu2.css",
-      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-cn9h7izmu2.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-ksmsjilztp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001620745543"
+          "Quality": "0.001594896332"
         }
       ],
       "ResponseHeaders": [
@@ -2765,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "616"
+          "Value": "626"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA=\""
+          "Value": "\"EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2793,26 +2793,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE=\""
+          "Value": "W/\"nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "cn9h7izmu2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE="
+          "Value": "sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="
         }
       ]
     },
     {
-      "Route": "css/site.cn9h7izmu2.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2822,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1780"
+          "Value": "1808"
         },
         {
           "Name": "Content-Type",
@@ -2830,11 +2822,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE=\""
+          "Value": "\"nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-ksmsjilztp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ksmsjilztp.css",
+      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-ksmsjilztp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001594896332"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ksmsjilztp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ksmsjilztp.css",
+      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2844,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cn9h7izmu2"
+          "Value": "ksmsjilztp"
         },
         {
           "Name": "label",
@@ -2852,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE="
+          "Value": "sha256-nBJlC6E1KNq66XTQI48v/tOIB4/t/7ObHbjOKIIykjk="
         }
       ]
     },
     {
-      "Route": "css/site.cn9h7izmu2.css.gz",
-      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-cn9h7izmu2.gz",
+      "Route": "css/site.ksmsjilztp.css.gz",
+      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-ksmsjilztp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2867,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "616"
+          "Value": "626"
         },
         {
           "Name": "Content-Type",
@@ -2875,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA=\""
+          "Value": "\"EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
+          "Value": "Thu, 24 Jul 2025 17:14:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2897,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cn9h7izmu2"
+          "Value": "ksmsjilztp"
         },
         {
           "Name": "label",
@@ -2905,144 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-cn9h7izmu2.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001620745543"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "616"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1780"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GOpNfO8nUNZGvkZjmUB9OJQ2RNQkWjr4e+Ll9stg5QE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Alberto_Borsatto\\OneDrive - Dell Technologies\\Desktop\\code\\teste\\GalpaoEletroLar\\obj\\Debug\\net9.0\\compressed\\a02pl1lonn-cn9h7izmu2.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "616"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Jul 2025 16:35:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZN1wgnbRbmvBTUnbFC99Be5XlmCkynh7nsblgQK0SPA="
+          "Value": "sha256-EX0Kd13FGr9eMy6mSf42m1Bxi9EZiSH7YzNnMPGlKJQ="
         }
       ]
     },
