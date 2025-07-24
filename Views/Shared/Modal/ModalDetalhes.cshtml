@@ -1,3 +1,4 @@
+@*
 @model GalpaoEletroLar.Models.CadastroProduto
 
 <div class="modal fade" id="modalDetalhes" tabindex="-1" aria-labelledby="modalDetalhesLabel" aria-hidden="true">
@@ -12,7 +13,7 @@
 
                 <div class="form-group mb-2">
                     <label asp-for="Tipo">Tipo de Produto:</label>
-                    <select asp-for="Tipo" class="form-select" id="TipoProduto">
+                    <select asp-for="Tipo" class="form-select">
                         <option value="">Selecione</option>
                         <option value="Eletro">Eletrodoméstico</option>
                         <option value="Movel">Móvel</option>
@@ -44,12 +45,12 @@
                     <input asp-for="Quantidade" type="number" class="form-control" readonly  disabled/>
                 </div>
 
-                <div class="form-group mb-2 col-12 d-none" id="tamanhoProduto">
+                <div class="form-group mb-2 col-12 d-none">
                     <label asp-for="Tamanho">Tamanho:</label>
                     <input asp-for="Tamanho" id="tamanhoInput" class="form-control" readonly disabled />
                 </div>
 
-                <div class="form-group mb-2 d-none" id="campoVoltagem">
+                <div class="form-group mb-2 d-none">
                     <label asp-for="Voltagem">Voltagem:</label>
                     <select asp-for="Voltagem" class="form-select" id="voltagemSelect" >
                         <option value="">Selecione</option>
@@ -65,4 +66,5 @@
         </div>
     </div>
 </div> 
-<script src="@Url.Content("~/js/toggleFormInputs.js")"></script>
+*@
+

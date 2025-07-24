@@ -412,7 +412,6 @@ C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\Galpao
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\projectbundle\GalpaoEletroLar.bundle.scp.css
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-ksmsjilztp.gz
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\1u8i2aolju-xtxxf3hu2r.gz
-C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\5sutt9edhu-t1cqhe9u97.gz
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\l53ants0er-c2jlpeoesf.gz
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\s5s1z13vs7-sejl45xvog.gz
@@ -488,3 +487,4 @@ C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\Galpao
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Alberto_Borsatto\OneDrive - Dell Technologies\Desktop\code\teste\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-e2og9zautm.gz

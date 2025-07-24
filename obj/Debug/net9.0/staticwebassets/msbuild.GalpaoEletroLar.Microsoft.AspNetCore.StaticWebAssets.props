@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aw40gvn7xp</Fingerprint>
-      <Integrity>NsuIQsq0AzX83MtGchrNXGlMQhuNt7vPWk2jdRPWh70=</Integrity>
+      <Fingerprint>e2og9zautm</Fingerprint>
+      <Integrity>Ku0hBLTyyZKi3zae4fFFwAmf6G3olIswzmzsxeIvZzA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\toggleFormInputs.js'))</OriginalItemSpec>
