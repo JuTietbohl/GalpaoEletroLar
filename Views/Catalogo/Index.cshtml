@@ -14,7 +14,7 @@
 <body>
 <div class="text-center">
     <div style=" display: flex; justify-content: end; margin: 50px;">
-        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target=" #modalCadastro" data-bs-target="#modalCadastro" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target=" #modalCadastro" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
     </div>
     <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px ">
         <div class="d-flex align-items-center justify-content-between">
@@ -36,14 +36,14 @@
                 <div style="color: #5C3B1E;"> 22/07/2025</div>
             </div>
             <div>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                <button class="btn btn-sm btn-icone-details" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalDetalhes">
                     <i class="bi bi-info-circle"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                <button class="btn btn-sm btn-icone-dollar" style="color: #5C3B1E; font-size: 20px"
                     data-bs-toggle="modal" data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
-                <button class="btn btn-sm"
+                <button class="btn btn-sm btn-icone-trash"
                         style="color: #5C3B1E; font-size: 20px"
                         data-bs-toggle="modal"
                         data-bs-target="#modalExcluir">
@@ -73,16 +73,16 @@
             </div>
             <div>
                 
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+                <button class="btn btn-sm btn-icone-details" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalDetalhes">
                     <i class="bi bi-info-circle"></i>
                 </button>
 
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px"
+                <button class="btn btn-sm btn-icone-dollar" style="color: #5C3B1E; font-size: 20px"
                         data-bs-toggle="modal" data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
 
-                <button class="btn btn-sm" 
+                <button class="btn btn-sm btn-icone-trash" 
                         style="color: #5C3B1E; font-size: 20px"
                         data-bs-toggle="modal" data-bs-target="#modalExcluir">
                     <i class="bi bi-trash"></i>
@@ -95,7 +95,8 @@
 
 </body>
 
-@await Html.PartialAsync("_ModalCadastro", Model)
+@await Html.PartialAsync("Modal/_ModalCadastro", Model)
 @await Html.PartialAsync("_ModalExcluir", Model)
 @await Html.PartialAsync("_ModalVender", Model)
 @await Html.PartialAsync("_ModalConfirmaCadastro", Model)
+@await Html.PartialAsync("Modal/ModalDetalhes", Model)
