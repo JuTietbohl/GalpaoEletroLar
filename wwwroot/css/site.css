@@ -88,3 +88,15 @@ body {
 .modal-header {
   border-bottom: none !important;
 }
+
+.btn-icone-dollar:hover  {
+  color: #268E34 !important;
+} 
+
+.btn-icone-trash:hover {
+  color: #FF0900 !important;
+}
+
+.btn-icone-details:hover {
+  color: #5500FF !important;
+}
