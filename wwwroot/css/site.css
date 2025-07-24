@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 
-.modal-body input, .modal-body select {
+.modal-body input, .modal-body select, .modal-body input:Disabled {
   background: var(--cor-input);
   border: 3px solid var(--borda-input);
   border-radius: 10px;

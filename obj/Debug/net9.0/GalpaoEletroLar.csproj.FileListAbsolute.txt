@@ -313,7 +313,6 @@ C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\scoped
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\bundle\GalpaoEletroLar.styles.css
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\scopedcss\projectbundle\GalpaoEletroLar.bundle.scp.css
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\1u8i2aolju-xtxxf3hu2r.gz
-C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-cn9h7izmu2.gz
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\lklopx3hvk-aw40gvn7xp.gz
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\5sutt9edhu-t1cqhe9u97.gz
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\l53ants0er-c2jlpeoesf.gz
@@ -390,3 +389,4 @@ C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\refint
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.pdb
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\GalpaoEletroLar.genruntimeconfig.cache
 C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\ref\GalpaoEletroLar.dll
+C:\Users\Julia_Schivinscki\RiderProjects\GalpaoEletroLar\obj\Debug\net9.0\compressed\a02pl1lonn-ksmsjilztp.gz
