@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using GalpaoEletroLar.Models;
 using GalpaoEletroLar.Models.ViewModels;
@@ -26,19 +27,7 @@ namespace GalpaoEletroLar.Controllers
 
             return View(viewModel);
         }
-
-        [HttpGet]
-        public IActionResult DetalhesProduto(int id)
-        {
-            CadastroProduto produto = _service.GetProduto(id);
-            if (produto == null)
-            {
-                return NotFound();
-            }
-            
-            return PartialView("Modal/ModalDetalhes", produto);
-        }
-
+        
         [HttpPost]
         public IActionResult Index(CatalogoViewModel viewModel)
         {
@@ -54,6 +43,18 @@ namespace GalpaoEletroLar.Controllers
             return View(viewModel);
         }
 
+        [HttpGet]
+        public IActionResult DetalhesProduto(int id)
+        {
+            CadastroProduto produto = _service.GetProduto(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+            
+            return PartialView("Modal/ModalDetalhes", produto);
+        }
+
         [HttpPost]
         public IActionResult RemoveProduto(int id)
         {
@@ -65,6 +66,25 @@ namespace GalpaoEletroLar.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult AlterarProduto([FromBody] CadastroProduto produto)
+        {
+            if (produto == null)
+                return BadRequest("Produto inválido.");
+
+            string json = JsonSerializer.Serialize(produto, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+
+            Console.WriteLine("Produto recebido:");
+            Console.WriteLine(json);
+
+            return Ok();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

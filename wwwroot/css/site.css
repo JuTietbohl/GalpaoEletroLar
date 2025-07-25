@@ -3,6 +3,7 @@
   --cor-botao: #744D2B;
   --hover-botao: #5e3c21;
  
+  --input-disabled: #FFC07A;
   --cor-input: #FFE1BA;
   --borda-input: #744D2B;
   --cor-label: #643811;
@@ -70,6 +71,11 @@ body {
   background: var(--cor-input);
   border: 3px solid var(--borda-input);
   border-radius: 10px;
+}
+
+.modal-body input:Disabled, .modal-body select:Disabled {
+  background: var(--input-disabled) !important;
+  cursor: not-allowed;
 }
 
 .modal-body input:focus, .modal-body select:focus {
