@@ -103,11 +103,3 @@ body {
 .modal-header {
   border-bottom: none !important;
 }
-
-.red-warning {
-  border-radius: 15px;
-  background: red;
-  color: white;
-  font-weight: 700;
-  padding: 5px 10px;
-}
