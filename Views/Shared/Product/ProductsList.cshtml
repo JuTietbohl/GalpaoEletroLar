@@ -21,7 +21,8 @@
                 <div style="color: #5C3B1E;"> 22/07/2025</div>
             </div>
             <div>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalDetalhes">
+
+                <button type="button" class="btn btn-sm btn-detalhes" data-id="@product.Id" style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-info-circle"></i>
                 </button>
 
@@ -29,9 +30,15 @@
                     <i class="bi bi-currency-dollar"></i>
                 </button>
 
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalExcluir">
+                <button class="btn btn-sm"
+                        style="color: #5C3B1E; font-size: 20px"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalExcluir"
+                        onclick="prepararExclusao(@product.Id, '@product.Nome')">
                     <i class="bi bi-trash"></i>
                 </button>
+
+
             </div>
         </div>
     </div>

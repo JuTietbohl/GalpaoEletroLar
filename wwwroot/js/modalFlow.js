@@ -7,3 +7,8 @@ function abrirConfirmacaoCadastro() {
     modalConfirmacao.show();
   }, 200);
 }
+
+function prepararExclusao(id, nome) {
+  document.getElementById('produtoIdExcluir').value = id;
+  document.getElementById('nomeProdutoExcluir').innerText = nome;
+}
