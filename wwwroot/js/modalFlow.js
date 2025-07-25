@@ -38,13 +38,16 @@ function carregarModalDetalhes(id) {
 function habilitarEdicao() {
     const modal = document.getElementById('modalDetalhes');
     const inputs = modal.querySelectorAll('input, select');
+    console.log("Habilitando inputs...");
 
     inputs.forEach(input => {
         input.disabled = false;
+        console.log(input.name + " habilitado");
     });
 
     document.getElementById('edit-button').classList.add('d-none');
     document.getElementById('save-button').classList.remove('d-none');
 }
+
 
 

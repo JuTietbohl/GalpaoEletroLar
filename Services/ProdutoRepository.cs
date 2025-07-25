@@ -43,8 +43,24 @@ public class ProdutoRepository: IProdutoRepository
         produto.Id = ++ultimoId;
         produtos.Add(produto);
     }
-    
-    public void AtualizaProduto(CadastroProduto produto) {}
+
+    public void AtualizaProduto(CadastroProduto produtoAtualizado)
+    {
+        var produtoExistente = produtos.FirstOrDefault(p => p.Id == produtoAtualizado.Id);
+        if (produtoExistente != null)
+        {
+            produtoExistente.Nome = produtoAtualizado.Nome;
+            produtoExistente.Tipo = produtoAtualizado.Tipo;
+            produtoExistente.Voltagem = produtoAtualizado.Voltagem;
+            produtoExistente.DataEntrada = produtoAtualizado.DataEntrada;
+            produtoExistente.Custo = produtoAtualizado.Custo;
+            produtoExistente.Preco = produtoAtualizado.Preco;
+            produtoExistente.Quantidade = produtoAtualizado.Quantidade;
+            produtoExistente.Tamanho = produtoAtualizado.Tamanho;
+            produtoExistente.EmPromocao = produtoAtualizado.EmPromocao;
+        }
+    }
+
 
     public void DeletaProduto(int id)
     {
