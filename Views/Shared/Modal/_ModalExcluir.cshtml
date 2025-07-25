@@ -1,0 +1,32 @@
+@model GalpaoEletroLar.Models.ViewModels.CatalogoViewModel
+<form rm asp-action="RemoveProduto" asp-controller="Catalogo" method="post" style="display:inline;">
+     <input type="hidden" name="id" id="produtoIdExcluir" />
+<div class="modal fade" id="modalExcluir" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog">
+
+                <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title" style="color: #5C3B1E;">Confirmar Exclusão</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <p style="color: #5C3B1E;">Tem certeza que deseja excluir este produto?</p>
+                 </div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #744D2B; color: #FFE1BA;">Cancelar</button>
+                    <button 
+                        type="submit" 
+                        class="btn btn-danger"
+                        style="background-color: #E00000; color: white;"
+                        onclick="confirmarExclusao()" 
+                        data-bs-dismiss="modal">
+                        Confirmar Exclusão
+                    </button>
+                 </div>
+                </div>
+        </div>   
+    </div>
+</div>
+</form>
+

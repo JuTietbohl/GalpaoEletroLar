@@ -1,34 +1,45 @@
-﻿const productType = document.getElementById("TipoProduto");
-const productVolts = document.getElementById("campoVoltagem");
-const productSize = document.getElementById("tamanhoProduto");
-const sizeInput = document.getElementById("tamanhoInput");
-const voltsSelect = document.getElementById("voltagemSelect");
+﻿document.addEventListener("DOMContentLoaded", function () {
+    const productType = document.getElementById('TipoProduto');
+    const productSize = document.getElementById('tamanhoProduto');
+    const sizeInput = document.getElementById('tamanhoInput');
+    const productVolts = document.getElementById('campoVoltagem');
+    const voltsSelect = document.getElementById('voltagemSelect');
 
-function updateFields() {
-    const selectedValue = productType.value;
+    function atualizarCampos() {
+        const tipo = productType.value;
 
-    if (selectedValue === "Eletro") {
-        productSize.classList.add("d-none");
-        sizeInput.removeAttribute("required");
+        if (tipo === "Eletro") {
+            // Mostrar voltagem e tornar obrigatória
+            productVolts.classList.remove("d-none");
+            voltsSelect.setAttribute("required", "required");
 
-        productVolts.classList.remove("d-none");
-        voltsSelect.setAttribute("required", "required");
-    } else if (selectedValue === "Movel") {
-        productSize.classList.remove("d-none");
-        sizeInput.setAttribute("required", "required");
+            // Esconder tamanho e limpar
+            productSize.classList.add("d-none");
+            sizeInput.removeAttribute("required");
+            sizeInput.value = "";
+        } else if (tipo === "Movel") {
+            // Mostrar tamanho e tornar obrigatório
+            productSize.classList.remove("d-none");
+            sizeInput.setAttribute("required", "required");
 
-        productVolts.classList.add("d-none");
-        voltsSelect.removeAttribute("required");
-    } else {
-        productSize.classList.add("d-none");
-        sizeInput.removeAttribute("required");
+            // Esconder voltagem e limpar
+            productVolts.classList.add("d-none");
+            voltsSelect.removeAttribute("required");
+            voltsSelect.value = "";
+        } else {
+            // Esconder ambos e limpar tudo
+            productSize.classList.add("d-none");
+            sizeInput.removeAttribute("required");
+            sizeInput.value = "";
 
-        productVolts.classList.add("d-none");
-        voltsSelect.removeAttribute("required");
+            productVolts.classList.add("d-none");
+            voltsSelect.removeAttribute("required");
+            voltsSelect.value = "";
+        }
     }
-}
 
-
-productType.addEventListener("change", updateFields);
-
-document.addEventListener("DOMContentLoaded", updateFields);
+    if (productType) {
+        productType.addEventListener("change", atualizarCampos);
+        atualizarCampos(); // Executa no carregamento
+    }
+});

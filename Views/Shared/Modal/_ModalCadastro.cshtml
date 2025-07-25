@@ -1,0 +1,80 @@
+﻿@model GalpaoEletroLar.Models.ViewModels.CatalogoViewModel
+
+<div class="modal fade" id="modalCadastro" tabindex="-1" aria-labelledby="modalCadastroLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="formCadastro" asp-controller="Catalogo" asp-action="Index" method="post">
+                <div class="modal-header d-flex justify-content-center position-relative w-100 mb-4">
+                    <h5 class="modal-title position-absolute top-50 start-50 translate-middle-x" id="exampleModalLabel">Cadastro</h5>
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                
+                <div class="modal-body row">
+                    
+                    <div class="form-group mb-2">
+                        <label asp-for="Produto.Tipo">Tipo de Produto:</label>
+                        <select asp-for="Produto.Tipo" class="form-select" id="TipoProduto" required>
+                            <option value="" selected>Selecione</option>
+                            <option value="Eletro">Eletrodoméstico</option>
+                            <option value="Movel">Móvel</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mb-2 col-12">
+                        <label asp-for="Produto.Nome">Nome:</label>
+                        <input asp-for="Produto.Nome" class="form-control" placeholder="Informe o nome do produto" required/>
+                    </div>
+
+                    <div class="form-group mb-2 col-lg-6">
+                        <label asp-for="Produto.Custo">Custo:</label>
+                        <input asp-for="Produto.Custo" type="number" step="0.01" placeholder="Ex: 1000,00" class="form-control" required/> @* Tipo "number" para decimal com casas decimais *@
+                    </div>
+
+                    <div class="form-group mb-2 col-lg-6">
+                        <label asp-for="Produto.Preco">Preço de Venda:</label> @* Rótulo ajustado para diferenciar de Custo *@
+                        <input asp-for="Produto.Preco" type="number" step="0.01" class="form-control" placeholder="Ex: 1600,00" required/>
+                    </div>
+
+                    <div class="form-group mb-2 col-lg-6">
+                        <label asp-for="Produto.DataEntrada">Data de Entrada:</label>
+                        <input asp-for="Produto.DataEntrada" type="date" class="form-control" required/>
+                    </div>
+
+                    <div class="form-group mb-2 col-lg-6">
+                        <label asp-for="Produto.Quantidade">Quantidade:</label>
+                        <input asp-for="Produto.Quantidade" type="number" class="form-control" min="0" step="1" placeholder="Ex: 5" required/>
+                    </div>
+
+
+                    <div class="form-group mb-2 col-12 d-none" id="tamanhoProduto" required>
+                        <label asp-for="Produto.Tamanho">Tamanho:</label>
+                        <input asp-for="Produto.Tamanho" id="tamanhoInput" class="form-control"/>
+                    </div>
+
+                    <div class="form-group mb-2 d-none" id="campoVoltagem">
+                        <label asp-for="Produto.Voltagem">Voltagem:</label>
+                        <select asp-for="Produto.Voltagem" class="form-select" id="voltagemSelect">
+                            <option value="">Selecione</option>
+                            <option value="V110">110v</option>
+                            <option value="V220">220v</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="modal-footer d-flex w-100 justify-content-center">
+                    <button type="button"
+                            class="btn btn-primary w-100 submit-button action-button"
+                            onclick="abrirConfirmacaoCadastro()">
+                        Cadastrar
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script src="@Url.Content("~/js/toggleFormInputs.js")"></script>
+<script src="@Url.Content("~/js/priceCalc.js")"></script>

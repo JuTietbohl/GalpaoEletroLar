@@ -1,0 +1,104 @@
+@model List<GalpaoEletroLar.Models.CadastroProduto>
+
+@foreach (var product in Model)
+{
+    var maisDeTresMeses = product.DataEntrada <= DateTime.Now.AddMonths(-3);
+    var estoqueAlto = product.Quantidade > 5;
+    var preco = product.Preco;
+    bool promo = (maisDeTresMeses && estoqueAlto);
+    preco = promo ? preco * 0.9m : preco;
+    bool semEstoque = product.Quantidade <= 0;
+
+    <div class="produto-card">
+        <div class="produto-conteudo">
+            <!--svg >-->
+            <div class="produto-info">
+                <!-- Ícone de tipo do produto -->
+                <div class="icone-produto">
+                    @if (product.Tipo == TIPO.MOVEL)
+                    {
+                        <!-- Ícone Sofá -->
+                        <svg class="icone-info" xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 71 53" fill="none">
+                            <path d="M62.125 14.7222V8.83333C62.125 3.975 58.1312 0 53.25 0H41.4167C39.1387 0 37.0679 0.883334 35.5 2.29667C33.9321 0.883334 31.8612 0 29.5833 0H17.75C12.8687 0 8.875 3.975 8.875 8.83333V14.7222C3.99375 14.7222 0 18.6972 0 23.5556V38.2778C0 43.1361 3.99375 47.1111 8.875 47.1111V53H14.7917V47.1111H56.2083V53H62.125V47.1111C67.0062 47.1111 71 43.1361 71 38.2778V23.5556C71 18.6972 67.0062 14.7222 62.125 14.7222ZM41.4167 5.88889H53.25C54.8771 5.88889 56.2083 7.21389 56.2083 8.83333V17.0189C54.4037 18.6383 53.25 20.9644 53.25 23.5556V29.4444H38.4583V8.83333C38.4583 7.21389 39.7896 5.88889 41.4167 5.88889ZM14.7917 8.83333C14.7917 7.21389 16.1229 5.88889 17.75 5.88889H29.5833C31.2104 5.88889 32.5417 7.21389 32.5417 8.83333V29.4444H17.75V23.5556C17.75 20.9644 16.5963 18.6383 14.7917 17.0189V8.83333ZM65.0833 38.2778C65.0833 39.8972 63.7521 41.2222 62.125 41.2222H8.875C7.24792 41.2222 5.91667 39.8972 5.91667 38.2778V23.5556C5.91667 21.9361 7.24792 20.6111 8.875 20.6111C10.5021 20.6111 11.8333 21.9361 11.8333 23.5556V35.3333H59.1667V23.5556C59.1667 21.9361 60.4979 20.6111 62.125 20.6111C63.7521 20.6111 65.0833 21.9361 65.0833 23.5556V38.2778Z" fill="#6B3821"/>
+                        </svg>
+                    }
+                    else
+                    {
+                        <!-- Ícone Geladeira -->
+                        <svg class="icone-info" xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 48 68" fill="none">
+                            <path d="M5 29.25H43V7.875C43 7.24511 42.7498 6.64102 42.3044 6.19562C41.859 5.75022 41.2549 5.5 40.625 5.5H7.375C6.74511 5.5 6.14102 5.75022 5.69562 6.19562C5.25022 6.64102 5 7.24511 5 7.875V29.25ZM5 34V60.125C5 60.7549 5.25022 61.359 5.69562 61.8044C6.14102 62.2498 6.74511 62.5 7.375 62.5H40.625C41.2549 62.5 41.859 62.2498 42.3044 61.8044C42.7498 61.359 43 60.7549 43 60.125V34H5ZM7.375 0.75H40.625C42.5147 0.75 44.3269 1.50067 45.6631 2.83686C46.9993 4.17306 47.75 5.98533 47.75 7.875V60.125C47.75 62.0147 46.9993 63.8269 45.6631 65.1631C44.3269 66.4993 42.5147 67.25 40.625 67.25H7.375C5.48533 67.25 3.67306 66.4993 2.33686 65.1631C1.00067 63.8269 0.25 62.0147 0.25 60.125V7.875C0.25 5.98533 1.00067 4.17306 2.33686 2.83686C3.67306 1.50067 5.48533 0.75 7.375 0.75ZM9.75 17.375H14.5V24.5H9.75V17.375ZM9.75 38.75H14.5V45.875H9.75V38.75Z" fill="#6B3821"/>
+                        </svg>
+                    }
+                </div>
+
+                <div class="produto-detalhes">
+                    <h6 class="produto-nome">@product.Nome</h6>
+                    <small class="produto-tipo">
+                        @(product.Tipo == TIPO.MOVEL ? "Móvel" : "Eletrodoméstico")
+                    </small>
+                </div>
+            </div>
+
+            <!-- Preço -->
+            <div class="produto-preco">
+                @if (promo)
+                {
+                    <div class="preco-promocional">
+                        <span class="preco-antigo">@String.Format("R$ {0:N2}", product.Preco)</span>
+                        <span class="preco-novo">@String.Format("R$ {0:N2}", preco)</span>
+                    </div>
+                }
+                else
+                {
+                    @String.Format("R$ {0:N2}", product.Preco)
+                }
+            </div>
+
+            <!-- Estoque -->
+            <div class="produto-quantidade @(semEstoque ? "sem-estoque" : "")">
+                @if (semEstoque)
+                {
+                    <span>Sem estoque</span>
+                }
+                else if (product.Quantidade < 5)
+                {
+                    <div class="estoque-baixo">
+                        <span>Quantidade: @product.Quantidade</span>
+                        <span class="alerta">Estoque baixo</span>
+                    </div>
+                }
+                else
+                {
+                    <span>Quantidade: @product.Quantidade</span>
+                }
+            </div>
+
+            <!-- Data -->
+            <div class="produto-data">
+                @product.DataEntrada.ToString("dd/MM/yyyy")
+            </div>
+
+            <!-- Ações -->
+            <div class="produto-acoes">
+                <button class="btn-icone btn-detalhes" onclick="carregarModalDetalhes(@product.Id)" aria-label="Ver detalhes">
+                    <svg class="icone-svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <path d="M21.6425 4.94015C22.1192 4.46355 22.1192 3.66921 21.6425 3.21705L18.7829 0.35745C18.3308 -0.11915 17.5365 -0.11915 17.0599 0.35745L14.8113 2.59381L19.394 7.1765M0 17.4173V22H4.5827L18.0986 8.47188L13.5159 3.88918L0 17.4173Z" fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <button class="btn-icone btn-vender" data-bs-toggle="modal" data-bs-target="#modalVender" aria-label="Vender produto">
+                    <svg class="icone-svg dolar-sign" xmlns="http://www.w3.org/2000/svg" width="16" height="27" viewBox="0 0 16 27" fill="none">
+                        <path d="M15.32 18.06C15.32 19.06 15.07 20 14.57 20.88C14.09 21.76 13.37 22.5 12.41 23.1C11.47 23.7 10.35 24.06 9.05 24.18V26.61H7.1V24.18C5.22 24 3.7 23.41 2.54 22.41C1.38 21.41 0.8 20.09 0.8 18.45H4.46C4.52 19.23 4.77 19.88 5.21 20.4C5.65 20.9 6.28 21.22 7.1 21.36V14.76C5.76 14.42 4.67 14.08 3.83 13.74C2.99 13.38 2.27 12.82 1.67 12.06C1.09 11.3 0.8 10.26 0.8 8.94C0.8 7.28 1.38 5.91 2.54 4.83C3.7 3.73 5.22 3.09 7.1 2.91V0.479999H9.05V2.91C10.81 3.07 12.22 3.63 13.28 4.59C14.36 5.53 14.97 6.83 15.11 8.49H11.45C11.39 7.87 11.15 7.32 10.73 6.84C10.31 6.34 9.75 6 9.05 5.82V12.3C10.39 12.62 11.48 12.96 12.32 13.32C13.16 13.66 13.87 14.21 14.45 14.97C15.03 15.71 15.32 16.74 15.32 18.06ZM4.28 8.76C4.28 9.58 4.52 10.22 5 10.68C5.5 11.14 6.2 11.51 7.1 11.79V5.73C6.24 5.83 5.55 6.14 5.03 6.66C4.53 7.18 4.28 7.88 4.28 8.76ZM9.05 21.36C9.93 21.22 10.62 20.87 11.12 20.31C11.62 19.73 11.87 19.04 11.87 18.24C11.87 17.44 11.62 16.82 11.12 16.38C10.64 15.92 9.95 15.55 9.05 15.27V21.36Z" fill="currentColor"/>
+                    </svg>
+                </button>
+
+                <button class="btn-icone btn-excluir" data-bs-toggle="modal" data-bs-target="#modalExcluir"
+                        onclick="prepararExclusao(@product.Id, '@product.Nome')" aria-label="Excluir produto">
+                    <svg class="icone-svg trash" xmlns="http://www.w3.org/2000/svg" width="19" height="24" viewBox="0 0 19 24" fill="none">
+                        <path d="M19 1.33333H14.25L12.8929 0H6.10714L4.75 1.33333H0V4H19M1.35714 21.3333C1.35714 22.0406 1.64311 22.7189 2.15214 23.219C2.66117 23.719 3.35156 24 4.07143 24H14.9286C15.6484 24 16.3388 23.719 16.8479 23.219C17.3569 22.7189 17.6429 22.0406 17.6429 21.3333V5.33333H1.35714V21.3333Z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+}

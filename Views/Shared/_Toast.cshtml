@@ -1,0 +1,13 @@
+@{
+    var mensagem = ViewData["mensagem"];
+    var id = ViewData["id"];
+}
+<div id="@id" class="toast-container-fixed toast-custom" style="display: none;">
+  <svg class="toast-icon" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 84 84" fill="none">
+    <rect x="2.5" y="2.5" width="79" height="79" rx="39.5" fill="#FFE1BA" stroke="#744D2B" stroke-width="5"/>
+    <path d="M35.3639 51.5791L58.3827 25.9087C58.9259 25.3029 59.5596 25 60.2839 25C61.0082 25 61.642 25.3029 62.1852 25.9087C62.7284 26.5145 63 27.2344 63 28.0683C63 28.9023 62.7284 29.6212 62.1852 30.2249L37.2651 58.0913C36.7219 58.6971 36.0882 59 35.3639 59C34.6396 59 34.0058 58.6971 33.4626 58.0913L21.7835 45.0668C21.2403 44.461 20.9795 43.7422 21.0013 42.9102C21.023 42.0782 21.3064 41.3584 21.8514 40.7506C22.3964 40.1427 23.0419 39.8398 23.788 39.8419C24.534 39.8439 25.1786 40.1468 25.7218 40.7506L35.3639 51.5791Z" fill="#744D2B"/>
+  </svg>
+  Produto @mensagem com sucesso!
+</div>
+
+
