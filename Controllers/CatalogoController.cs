@@ -75,21 +75,17 @@ namespace GalpaoEletroLar.Controllers
         }
 
         [HttpPost]
-        public IActionResult AlterarProduto([FromBody] CadastroProduto produto)
+        public IActionResult AlterarProduto(CadastroProduto produto)
         {
             if (produto == null)
                 return BadRequest("Produto inválido.");
 
-            string json = JsonSerializer.Serialize(produto, new JsonSerializerOptions
-            {
-                WriteIndented = true
-            });
+            _service.AtualizaProduto(produto); // ou o nome do teu método real
 
-            Console.WriteLine("Produto recebido:");
-            Console.WriteLine(json);
-
-            return Ok();
+            TempData["Toast"] = "confirmarSalvamento()";
+            return RedirectToAction("Index");
         }
+
 
 
 

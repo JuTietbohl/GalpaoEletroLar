@@ -2,31 +2,41 @@
 
 @foreach (var product in Model)
 {
-    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px ">
+    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px">
         <div class="d-flex align-items-center justify-content-between">
             <div class="d-flex align-items-center">
                 <i class="fa-regular fa-refrigerator" style="color: #744D2B; font-size: 20px;"></i>
                 <div class="ms-3">
-                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">Geladeira Brastemp</h6>
-                    <small class="text-muted">Frost Free Duplex</small>
+                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">@product.Nome</h6>
+                    <small class="text-muted">@product.Tipo</small>
                 </div>
             </div>
-            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
-                R$ 1400,00
-            </div>
-            <div class="text-end">
-                <div style="color: #5C3B1E;"> Quantidade: 2</div>
-            </div>
-            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
-                <div style="color: #5C3B1E;"> 22/07/2025</div>
-            </div>
-            <div>
 
-                <button type="button" class="btn btn-sm btn-detalhes" data-id="@product.Id" style="color: #5C3B1E; font-size: 20px">
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                @String.Format("R$ {0:N2}", product.Preco)
+            </div>
+
+            <div class="text-end">
+                <div style="color: @(product.Quantidade == 0 ? "#E00000" : "#5C3B1E")">
+                    @(product.Quantidade == 0 ? "Sem estoque" : $"Quantidade: {product.Quantidade}")
+                </div>
+            </div>
+
+            <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
+                @product.DataEntrada.ToString("dd/MM/yyyy")
+            </div>
+
+            <div>
+                <button class="btn btn-sm"
+                        onclick="carregarModalDetalhes(@product.Id)"
+                        style="color: #5C3B1E; font-size: 20px">
                     <i class="bi bi-info-circle"></i>
                 </button>
 
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalVender">
+                <button class="btn btn-sm" 
+                        style="color: #5C3B1E; font-size: 20px" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
 
@@ -37,8 +47,6 @@
                         onclick="prepararExclusao(@product.Id, '@product.Nome')">
                     <i class="bi bi-trash"></i>
                 </button>
-
-
             </div>
         </div>
     </div>
