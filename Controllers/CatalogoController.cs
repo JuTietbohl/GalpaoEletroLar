@@ -21,7 +21,10 @@ namespace GalpaoEletroLar.Controllers
         {
             var viewModel = new CatalogoViewModel
             {
-                Produto = new CadastroProduto(),
+                Produto = new CadastroProduto
+                {
+                    DataEntrada = DateTime.Now,
+                },
                 ListaProdutos = _service.GetProdutos()
             };
 
