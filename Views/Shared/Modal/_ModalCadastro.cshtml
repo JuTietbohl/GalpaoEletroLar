@@ -22,17 +22,17 @@
 
                     <div class="form-group mb-2 col-12">
                         <label asp-for="Produto.Nome">Nome:</label>
-                        <input asp-for="Produto.Nome" class="form-control" required/>
+                        <input asp-for="Produto.Nome" class="form-control" placeholder="Informe o nome do produto" required/>
                     </div>
 
                     <div class="form-group mb-2 col-lg-6">
                         <label asp-for="Produto.Custo">Custo:</label>
-                        <input asp-for="Produto.Custo" type="number" step="0.01" class="form-control" required/> @* Tipo "number" para decimal com casas decimais *@
+                        <input asp-for="Produto.Custo" type="number" step="0.01" placeholder="Ex: 1000,00" class="form-control" required/> @* Tipo "number" para decimal com casas decimais *@
                     </div>
 
                     <div class="form-group mb-2 col-lg-6">
                         <label asp-for="Produto.Preco">Preço de Venda:</label> @* Rótulo ajustado para diferenciar de Custo *@
-                        <input asp-for="Produto.Preco" type="number" step="0.01" class="form-control" required/>
+                        <input asp-for="Produto.Preco" type="number" step="0.01" class="form-control" placeholder="Ex: 1600,00" required/>
                     </div>
 
                     <div class="form-group mb-2 col-lg-6">
@@ -42,7 +42,7 @@
 
                     <div class="form-group mb-2 col-lg-6">
                         <label asp-for="Produto.Quantidade">Quantidade:</label>
-                        <input asp-for="Produto.Quantidade" type="number" class="form-control" min="0" step="1" required/>
+                        <input asp-for="Produto.Quantidade" type="number" class="form-control" min="0" step="1" placeholder="Ex: 5" required/>
                     </div>
 
 
@@ -53,7 +53,7 @@
 
                     <div class="form-group mb-2 d-none" id="campoVoltagem">
                         <label asp-for="Produto.Voltagem">Voltagem:</label>
-                        <select asp-for="Produto.Voltagem" class="form-select" id="voltagemSelect" required>
+                        <select asp-for="Produto.Voltagem" class="form-select" id="voltagemSelect">
                             <option value="">Selecione</option>
                             <option value="V110">110v</option>
                             <option value="V220">220v</option>
@@ -63,9 +63,9 @@
 
                 <div class="modal-footer d-flex w-100 justify-content-center">
                     <button type="button"
-                            class="btn btn-primary w-100"
+                            class="btn btn-primary w-100 submit-button action-button"
                             onclick="abrirConfirmacaoCadastro()">
-                    Cadastrar
+                        Cadastrar
                     </button>
 
                 </div>
@@ -77,3 +77,4 @@
 </div>
 
 <script src="@Url.Content("~/js/toggleFormInputs.js")"></script>
+<script src="@Url.Content("~/js/priceCalc.js")"></script>
