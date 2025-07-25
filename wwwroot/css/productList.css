@@ -9,6 +9,13 @@
 
 }
 
+.icone-info {
+    width: 40px !important;
+    height: 40px !important;
+    display: block;
+    margin-left: 12px;
+}
+
 .produto-conteudo {
     display: flex;
     align-items: center;
@@ -19,6 +26,7 @@
 .icone-produto {
     color: #744D2B;
     font-size: 20px;
+    width: 80px;
 }
 
 .produto-info {
