@@ -16,9 +16,22 @@
 </head>
 <body>
   <div class="text-center">
-    <div style=" display: flex; justify-content: end; margin: 50px;">
-        <button type="button" class="btn action-button" data-bs-toggle="modal" data-bs-target=" #modalCadastro" style="background-color: #744D2B;  color: #FFE1BA; font-size: 20px">  Cadastrar produto </button>
-    </div>
+  <div style="display: flex; justify-content: end; margin: 50px;">
+      <button type="button"
+              class="btn action-button"
+              data-bs-toggle="modal"
+              data-bs-target="#modalCadastro"
+              style="background-color: #744D2B; color: #FFEDD7; font-size: 20px; display: flex; align-items: center; gap: 10px; padding: 10px 20px; border-radius: 8px;">
+          
+          <!-- Ícone SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 33 33" fill="none">
+              <path d="M30.6429 18.8571H18.8571V30.6429C18.8571 31.268 18.6088 31.8676 18.1668 32.3096C17.7247 32.7517 17.1252 33 16.5 33C15.8748 33 15.2753 32.7517 14.8332 32.3096C14.3912 31.8676 14.1429 31.268 14.1429 30.6429V18.8571H2.35714C1.73199 18.8571 1.13244 18.6088 0.690392 18.1668C0.248342 17.7247 0 17.1252 0 16.5C0 15.8748 0.248342 15.2753 0.690392 14.8332C1.13244 14.3912 1.73199 14.1429 2.35714 14.1429H14.1429V2.35714C14.1429 1.73199 14.3912 1.13244 14.8332 0.690391C15.2753 0.24834 15.8748 0 16.5 0C17.1252 0 17.7247 0.24834 18.1668 0.690391C18.6088 1.13244 18.8571 1.73199 18.8571 2.35714V14.1429H30.6429C31.268 14.1429 31.8676 14.3912 32.3096 14.8332C32.7517 15.2753 33 15.8748 33 16.5C33 17.1252 32.7517 17.7247 32.3096 18.1668C31.8676 18.6088 31.268 18.8571 30.6429 18.8571Z"
+                    fill="#FFEDD7" />
+          </svg>
+          Cadastrar produto
+      </button>
+  </div>
+
 
     @await Html.PartialAsync("Product/ProductsList", Model.ListaProdutos)
   </div>

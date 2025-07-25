@@ -1,0 +1,122 @@
+.produto-card {
+    background-color: #FAE5CA;
+    border: none;
+    margin: 40px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+
+}
+
+.produto-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icone-produto {
+    color: #744D2B;
+    font-size: 20px;
+}
+
+.produto-info {
+    display: flex;
+    align-items: center;
+}
+
+.produto-detalhes {
+    margin-left: 1rem;
+}
+
+.produto-nome {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #5C3B1E;
+}
+
+.produto-tipo {
+    color: #888;
+}
+
+.produto-preco,
+.produto-data {
+    font-weight: bold;
+    color: #5C3B1E;
+    font-size: 1.2rem;
+}
+
+.produto-quantidade {
+    text-align: right;
+    color: #5C3B1E;
+}
+
+.produto-quantidade.sem-estoque {
+    color: #E00000;
+}
+
+.produto-acoes {
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: row; /* (padrão, mas coloca pra garantir) */
+    gap: 0.5rem; /* espaçamento entre os botões, opcional */
+}
+
+
+.produto-card:hover .produto-acoes {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.produto-acoes .btn-icone {
+    color: #744D2B;
+    font-size: 20px;
+    margin-left: 0.5rem;
+    border: 3px solid #744D2B;
+    background-color: #FFE1BA;
+    display: flex;
+    flex-direction: row;          /* centralização flexível */
+    align-items: center;         /* centraliza verticalmente */
+    justify-content: center;     /* centraliza horizontalmente */
+    padding: 0;                  /* remove espaçamento interno */
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.icone-svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.icone-svg.dolar-sign {
+    width: 22px;   /* um pouco maior, mas ainda proporcional */
+    height: 22px;
+}
+
+.btn-excluir:hover {
+    border: 3px solid #9E381E;
+    background-color: #FFA082;
+    color: #9E381E;
+}
+
+.btn-vender:hover {
+    border: 3px solid #5D7129;
+    background-color: #CCE79C;
+    color: #5D7129;
+}
+
+.btn-detalhes:hover {
+    border: 3px solid #9E691E;
+    background-color: #FFD182;
+    color: #9E691E;
+}
+
+.btn-icone {
+    transition: all 0.15s ease-in-out;
+}
