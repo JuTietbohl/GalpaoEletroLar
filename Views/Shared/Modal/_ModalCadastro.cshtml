@@ -3,7 +3,7 @@
 <div class="modal fade" id="modalCadastro" tabindex="-1" aria-labelledby="modalCadastroLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form asp-controller="Catalogo" asp-action="Index" method="post">
+            <form id="formCadastro" asp-controller="Catalogo" asp-action="Index" method="post">
                 <div class="modal-header d-flex justify-content-center position-relative w-100 mb-4">
                     <h5 class="modal-title position-absolute top-50 start-50 translate-middle-x" id="exampleModalLabel">Cadastro</h5>
                     <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Fechar"></button>
@@ -62,10 +62,15 @@
                 </div>
 
                 <div class="modal-footer d-flex w-100 justify-content-center">
-                    <button type="submit" class="btn btn-primary submit-button w-100"
-                            data-bs-toggle="modal" data-bs-target="#modalConfirmaCadastro"> Cadastrar
-                        </button>
+                    <button type="button"
+                            class="btn btn-primary w-100"
+                            onclick="abrirConfirmacaoCadastro()">
+                    Cadastrar
+                    </button>
+
+
                 </div>
+
             </form>
 
         </div>

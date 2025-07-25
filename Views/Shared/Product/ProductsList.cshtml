@@ -2,37 +2,34 @@
 
 @foreach (var product in Model)
 {
-    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px;">
+    <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px ">
         <div class="d-flex align-items-center justify-content-between">
-
             <div class="d-flex align-items-center">
-                <i class="fa-solid fa-box" style="color: #744D2B; font-size: 20px;"></i>
+                <i class="fa-regular fa-refrigerator" style="color: #744D2B; font-size: 20px;"></i>
                 <div class="ms-3">
-                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">@product.Nome</h6>
-                    <small class="text-muted">@product.Tipo</small>
+                    <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">Geladeira Brastemp</h6>
+                    <small class="text-muted">Frost Free Duplex</small>
                 </div>
             </div>
-
             <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
-                R$ @product.Preco.ToString("N2")
+                R$ 1400,00
             </div>
-
             <div class="text-end">
-                <div style="color: #5C3B1E;">Quantidade: @product.Quantidade</div>
+                <div style="color: #5C3B1E;"> Quantidade: 2</div>
             </div>
-
             <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
-                <div style="color: #5C3B1E;">@product.DataEntrada.ToString("dd/MM/yyyy")</div>
+                <div style="color: #5C3B1E;"> 22/07/2025</div>
             </div>
-
             <div>
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalDetalhes" style="color: #5C3B1E; font-size: 20px">
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalDetalhes">
                     <i class="bi bi-info-circle"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalVender">
                     <i class="bi bi-currency-dollar"></i>
                 </button>
-                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px">
+
+                <button class="btn btn-sm" style="color: #5C3B1E; font-size: 20px" data-bs-toggle="modal" data-bs-target="#modalExcluir">
                     <i class="bi bi-trash"></i>
                 </button>
             </div>

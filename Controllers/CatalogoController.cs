@@ -34,10 +34,12 @@ namespace GalpaoEletroLar.Controllers
             {
                 viewModel.Produto.EmPromocao = false;
                 _service.CriaProduto(viewModel.Produto);
+
                 
                 _service.PrintProdutos();
+                TempData["Toast"] = "adicionado";
 
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
 
             viewModel.ListaProdutos = _service.GetProdutos();
