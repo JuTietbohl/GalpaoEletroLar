@@ -4,11 +4,18 @@ for details on configuring this project to bundle and minify static web assets. 
     font-family: 'Poppins', sans-serif;
 }
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.navbar {
+  min-height: 60px;
 }
+
+a.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre ícone e texto */
+  color: white;
+  text-decoration: none;
+}
+
 
 a {
   color: #744D2B;
@@ -49,3 +56,15 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.icone-container {
+    background-color: #B58658;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Faz com que a div ocupe toda a altura disponível do pai */
+    padding: 8px;
+    border-radius: 6px;
+}
+
+
