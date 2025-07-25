@@ -2,7 +2,6 @@ function mostrarToast(id) {
   const toast = document.getElementById(id);
   if (!toast) return;
 
-  // Resetar caso esteja reaparecendo
   toast.style.display = 'none';
   void toast.offsetWidth;
 

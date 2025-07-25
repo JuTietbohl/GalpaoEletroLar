@@ -1,12 +1,19 @@
 function abrirConfirmacaoCadastro() {
-  const modalCadastro = bootstrap.Modal.getInstance(document.getElementById('modalCadastro'));
-  modalCadastro.hide();
+    const form = document.getElementById('formCadastro');
+    
+    if (form.checkValidity()) {
+        const modalCadastro = bootstrap.Modal.getInstance(document.getElementById('modalCadastro'));
+        modalCadastro.hide();
 
-  setTimeout(() => {
-    const modalConfirmacao = new bootstrap.Modal(document.getElementById('modalConfirmaCadastro'));
-    modalConfirmacao.show();
-  }, 200);
+        setTimeout(() => {
+            const modalConfirmacao = new bootstrap.Modal(document.getElementById('modalConfirmaCadastro'));
+            modalConfirmacao.show();
+        }, 200);   
+    } else {
+        form.reportValidity();
+    }
 }
+
 
 function prepararExclusao(id, nome) {
   document.getElementById('produtoIdExcluir').value = id;
@@ -17,16 +24,13 @@ function carregarModalDetalhes(id) {
   fetch(`/Catalogo/DetalhesProduto?id=${id}`)
     .then(res => res.text())
     .then(html => {
-      // REMOVE qualquer modalDetalhes existente no DOM
-      const antigo = document.getElementById("modalDetalhes");
+        const antigo = document.getElementById("modalDetalhes");
       if (antigo) {
         antigo.remove();
       }
 
-      // Injeta o novo modal
       document.getElementById('modalDetalhesContainer').innerHTML = html;
 
-      // Mostra o novo modal
       const modal = new bootstrap.Modal(document.getElementById('modalDetalhes'));
       modal.show();
     })

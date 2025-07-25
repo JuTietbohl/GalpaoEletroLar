@@ -2,23 +2,60 @@
 
 @foreach (var product in Model)
 {
+    var maisDeTresMeses = product.DataEntrada <= DateTime.Now.AddMonths(-3);
+    var estoqueAlto = product.Quantidade > 5;
+    var preco = product.Preco;
+    bool promo = (maisDeTresMeses && estoqueAlto);
+    preco = promo ? preco * 0.9m : preco;
+    bool semEstoque = product.Quantidade > 0 ? false : true;
+
+    
+    
     <div class="card p-4" style="background-color: #FAE5CA; border: none; margin: 40px">
         <div class="d-flex align-items-center justify-content-between">
             <div class="d-flex align-items-center">
                 <i class="fa-regular fa-refrigerator" style="color: #744D2B; font-size: 20px;"></i>
                 <div class="ms-3">
                     <h6 class="mb-0 fw-semibold" style="color: #5C3B1E;">@product.Nome</h6>
-                    <small class="text-muted">@product.Tipo</small>
+                    <small class="text-muted" style="font-weight: 600">@(product.Tipo == TIPO.MOVEL ? "Móvel" : "Eletrodoméstico")</small>
                 </div>
             </div>
 
             <div class="fw-bold" style="color: #5C3B1E; font-size: 1.2rem;">
-                @String.Format("R$ {0:N2}", product.Preco)
+                @if (promo)
+                {
+                    <div class="d-flex flex-column">
+                        <span style="text-decoration: line-through; opacity: 0.7; margin-right: 8px;">
+                        @String.Format("R$ {0:N2}", product.Preco)
+                    </span>
+                        <span style="color: #0C8C11;">
+                     @String.Format("R$ {0:N2}", preco)
+                     </span>
+                    </div>
+                }
+                else
+                {
+                    @String.Format("R$ {0:N2}", product.Preco)
+                }
             </div>
 
             <div class="text-end">
                 <div style="color: @(product.Quantidade == 0 ? "#E00000" : "#5C3B1E")">
-                    @(product.Quantidade == 0 ? "Sem estoque" : $"Quantidade: {product.Quantidade}")
+                    @if (semEstoque)
+                    {
+                        <span style="color: red; font-weight: 600">Sem estoque</span>
+                    }
+                    else if (product.Quantidade < 5)
+                    {
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <span class="mb-2">Quantidade: @product.Quantidade</span>
+                            <div class="red-warning">Estoque baixo</div>
+                        </div>
+                    }
+                    else
+                    {
+                        <span>Quantidade: @product.Quantidade</span>
+                    }
                 </div>
             </div>
 
