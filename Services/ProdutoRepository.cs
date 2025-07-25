@@ -5,6 +5,35 @@ namespace GalpaoEletroLar.Services;
 public class ProdutoRepository: IProdutoRepository
 {
     List<CadastroProduto> produtos = new List<CadastroProduto>();
+
+    public ProdutoRepository()
+    {
+        produtos = new List<CadastroProduto>
+        {
+            new CadastroProduto
+            {
+                Nome = "Micro-ondas",
+                Tipo = TIPO.ELETRO,
+                Custo = 350.00m,
+                Preco = 599.99m,
+                DataEntrada = new DateTime(2025, 07, 22),
+                Quantidade = 10,
+                Tamanho = null,
+                Voltagem = VOLTAGEM.V110
+            },
+            new CadastroProduto
+            {
+                Nome = "Sofá 3 Lugares",
+                Tipo = TIPO.MOVEL,
+                Custo = 800.00m,
+                Preco = 1299.90m,
+                DataEntrada = new DateTime(2025, 07, 20),
+                Quantidade = 5,
+                Tamanho = "2.20m",
+                Voltagem = null
+            }
+        };
+    }
     
     public void CriaProduto(CadastroProduto produto)
     {
