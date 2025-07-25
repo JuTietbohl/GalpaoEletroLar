@@ -1,12 +1,19 @@
 function abrirConfirmacaoCadastro() {
-  const modalCadastro = bootstrap.Modal.getInstance(document.getElementById('modalCadastro'));
-  modalCadastro.hide();
+    const form = document.getElementById('formCadastro');
+    
+    if (form.checkValidity()) {
+        const modalCadastro = bootstrap.Modal.getInstance(document.getElementById('modalCadastro'));
+        modalCadastro.hide();
 
-  setTimeout(() => {
-    const modalConfirmacao = new bootstrap.Modal(document.getElementById('modalConfirmaCadastro'));
-    modalConfirmacao.show();
-  }, 200);
+        setTimeout(() => {
+            const modalConfirmacao = new bootstrap.Modal(document.getElementById('modalConfirmaCadastro'));
+            modalConfirmacao.show();
+        }, 200);   
+    } else {
+        form.reportValidity();
+    }
 }
+
 
 function prepararExclusao(id, nome) {
   document.getElementById('produtoIdExcluir').value = id;

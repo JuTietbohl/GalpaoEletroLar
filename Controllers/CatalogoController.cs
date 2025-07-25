@@ -36,6 +36,7 @@ namespace GalpaoEletroLar.Controllers
         {
             if (ModelState.IsValid)
             {
+                Console.WriteLine("ok");
                 viewModel.Produto.EmPromocao = false;
                 _service.CriaProduto(viewModel.Produto);
 
@@ -46,6 +47,8 @@ namespace GalpaoEletroLar.Controllers
                 return RedirectToAction("Index");
 
             }
+            
+            Console.WriteLine("not ok");
 
             viewModel.ListaProdutos = _service.GetProdutos();
             return View(viewModel);
