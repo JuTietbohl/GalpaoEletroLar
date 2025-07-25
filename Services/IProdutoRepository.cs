@@ -8,5 +8,7 @@ public interface IProdutoRepository
     void AtualizaProduto(CadastroProduto produto);
     void DeletaProduto(int id);
     List<CadastroProduto> GetProdutos();
+    
+    CadastroProduto GetProduto(int id);
     void PrintProdutos();
 }

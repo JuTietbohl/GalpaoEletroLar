@@ -1,6 +1,7 @@
 :root {
   --cor-primaria: #FFE1BA;
   --cor-botao: #744D2B;
+  --hover-botao: #5e3c21;
  
   --cor-input: #FFE1BA;
   --borda-input: #744D2B;
@@ -57,7 +58,15 @@ body {
   font-size: 20px;
 }
 
-.modal-body input, .modal-body select, .modal-body input:Disabled {
+.action-button {
+  background: var(--cor-botao) !important;
+}
+
+.action-button:hover {
+  background: var(--hover-botao) !important;
+}
+
+.modal-body input, .modal-body select, .modal-body input:Disabled, .modal-body select:Disabled {
   background: var(--cor-input);
   border: 3px solid var(--borda-input);
   border-radius: 10px;

@@ -61,6 +61,11 @@ public class ProdutoRepository: IProdutoRepository
         return produtos;
     }
 
+    public CadastroProduto GetProduto(int id)
+    {
+        return produtos.FirstOrDefault(p => p.Id == id);
+    }
+
     public void PrintProdutos()
     {
         Console.WriteLine(produtos.Count);

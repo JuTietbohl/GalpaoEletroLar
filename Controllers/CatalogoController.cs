@@ -27,6 +27,18 @@ namespace GalpaoEletroLar.Controllers
             return View(viewModel);
         }
 
+        [HttpGet]
+        public IActionResult DetalhesProduto(int id)
+        {
+            CadastroProduto produto = _service.GetProduto(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+            
+            return PartialView("Modal/ModalDetalhes", produto);
+        }
+
         [HttpPost]
         public IActionResult Index(CatalogoViewModel viewModel)
         {
