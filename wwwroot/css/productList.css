@@ -110,6 +110,7 @@
 .produto-card:hover .produto-acoes {
     opacity: 1;
     pointer-events: auto;
+    transition: all 0.15s ease-in-out;
 }
 
 .produto-acoes .btn-icone {
@@ -127,6 +128,7 @@
     height: 40px;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 
